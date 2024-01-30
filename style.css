@@ -1,8 +1,9 @@
 /* nav related style */
 nav {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 
 }
 
@@ -50,4 +51,166 @@ nav a {
     color: #474747;
 
 
+}
+
+/* heaer related style */
+.header {
+    background-color: #FFF8F3;
+    background-image: url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
+.banner {
+    padding: 30px 30px 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.banner .profile {
+    width: 500px;
+
+
+}
+
+.banner-content {
+    max-width: 500px;
+
+}
+
+.banner-title {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-greeting {
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-des {
+    margin-bottom: 30px;
+
+}
+
+
+
+/* main section start */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+
+    font-size: 35px;
+    font-weight: 700;
+
+
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+}
+
+/* about section styles */
+.about {
+    padding: 130px;
+
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.aboutinfo {
+    text-align: center;
+}
+
+#what-i-do {
+    padding: 30px 150px;
+}
+
+/* skill  */
+.main-skil-container {
+    display: flex;
+    gap: 24px;
+    
+
+}
+
+.skils-container {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
+
+
+}
+main section{
+    margin-top: 130px;
+}
+
+.skil-des {
+    color: #757575;
+
+}
+.resume-col-title{
+    color:  #474747;
+
+font-size: 30px;
+
+font-weight: 700;
+margin-bottom: 10px;
+
+}
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-des, .resume-item-institute{
+    color: #757575;
+    
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700
+    
+
+}
+.resume-container hr{
+    margin: 30px;
+    
+}
+
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
